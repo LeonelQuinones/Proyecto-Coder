@@ -18,7 +18,7 @@
 }
 
 .nombre-puesto {
-    color: #089682;
+    color: #1D9000;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -32,7 +32,7 @@
 
 
 .info{
-    color: #089682;
+    color: #1D9000;
     font-size: 45px;
     font-family: 'Oswald', sans-serif;
     margin-left: 50px;
@@ -121,7 +121,7 @@
 .titulo-productos {
     font-size: 35px;
     font-family: 'Oswald', sans-serif;
-    color: rgb(119, 66, 218);
+    color: #1D9000;
 }
 
 .productos {
