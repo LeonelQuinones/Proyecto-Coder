@@ -144,12 +144,12 @@
 
 
 .footer {
-    background-color: rgb(193, 174, 223);
+    background-color: #193036;
     padding: 5rem 0;
 }
 
 .redes {
-    color: rgb(119, 66, 218);
+    color: #D7E399;
     font-size: 29px;
     font-family: 'Oswald', sans-serif;
 }
@@ -158,12 +158,18 @@
     padding-top: 2.5em;
     font-size: 17px;
     font-family: 'Oswald', sans-serif;
+    color: #F4F5F9;
 }
 
 .margen2 {
     padding-top: 1rem;
     font-size: 17px;
     font-family: 'Oswald', sans-serif;
+    color: #F4F5F9;
+}
+
+.margen1 svg, .margen2 svg {
+    color: #D7E399;
 }
 
 
