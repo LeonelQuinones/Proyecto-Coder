@@ -122,15 +122,16 @@
 }
 
 .productos {
-    color: black;
+    color: #F4F5F9;
     font-family: 'Oswald', sans-serif;
     font-size: 22px;
     text-align: center;
     border-radius: 6px;
     border: 1px solid;
-    background-color: #25c5b0;
+    background-color: #193036;
     margin-left: 60px;
     margin-right: 60px;
+    padding: 10px 10px;
 }
 
 .img-producto {
@@ -290,7 +291,7 @@
 
 .contacto h1 {
     font-size: 65px;
-    color: #089682;
+    color: #1D9000;
 }
 
 .contacto p {
@@ -304,7 +305,7 @@
 }
 
 .contacto2 div div svg {
-    color: #089682;
+    color: #1D9000;
 }
 
 .contacto2 div div svg:hover {
@@ -323,7 +324,7 @@
 }
 .formulario {
     text-align: center;
-    background-color: #089682;
+    background-color: #193036;
     margin-bottom: 120px;
     padding: 20px;
     border-radius: 10px;
