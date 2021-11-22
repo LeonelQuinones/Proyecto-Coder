@@ -57,15 +57,14 @@
     font-size: 20px;
     text-decoration: none;
     border: 1px solid;
-    border-color: black;
     margin-left: 25px;
     padding: 2px 10px;
 }
 
 .boton:hover {
     background-color: #1D9000;
-    color: black;
-    transition: 0.4s;
+    color: white;
+    transition: 0.3s;
 }
 
 
@@ -73,13 +72,13 @@
 /* SECCION 2 */
 
 .section-compras{
-    background-color: rgb(187, 186, 186);
+    background-color: #e8ebfa;
     padding-bottom: 100px;
     padding-top: 100px;
 }
 
 #compra{
-    color: rgb(164, 33, 33);
+    color: #193036;
     font-size: 60px;
     letter-spacing: 5px;
     font-family: 'Oswald', sans-serif;
@@ -88,7 +87,7 @@
 }
 
 .promo{
-    color: rgb(164, 33, 33);
+    color: #193036;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -105,15 +104,16 @@
     color: black;
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
-    border: 1px solid black;
+    border: 1px solid;
     font-size: 20px;
     padding: 3px 20px;
 }
 
 .link-promo:hover{
     background-color: #1D9000;
-    color: black;
-    transition: 0.4s;
+    border-color: rgb(187, 186, 186);
+    color: white;
+    transition: 0.3s;
 }
 
 /* SECCION 3 */
@@ -223,7 +223,7 @@
     margin-left: 345px;
     margin-bottom: 90px;
     font-size: 60px;
-    background-color: #089682;
+    background-color: #1D9000;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -252,13 +252,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 70px;
     padding-left: 40px;
-    background-color: rgb(202, 202, 202);
+    background-color: #e8ebfa;
     padding-bottom: 90px;
     padding-top: 40px;
 }
 
 .subtitulos{
-    color: rgb(119, 66, 218);
+    color: #1D9000;
     font-size: 25px;
     font-family: 'Oswald', sans-serif;
     padding-bottom: 40px;
@@ -350,15 +350,16 @@ input, textarea {
 }
 
 .boton-form {
-    color: black;
+    color: #193036;
     background-color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.5px;
     height: 50px;
     width: 200px;
 }
 
 .boton-form:hover {
-    color: white;
-    background-color: rgb(32, 32, 86);
+    background-color: #D7E399;
     transition: 0.15s;
 }
 
