@@ -395,7 +395,7 @@ input, textarea {
 
 /* Movil */
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .logo {
         width: 480px;
     }
@@ -433,7 +433,7 @@ input, textarea {
     .link-promo{
         color: #325d9a;
     }
-}
+} */
 
 /* Tablet */
 
