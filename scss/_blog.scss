@@ -1,0 +1,40 @@
+// Archivo Blog
+
+
+
+.titulo-blog {
+    text-align: center;
+    padding: 6em 0;
+
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 60px;
+    }
+}
+
+main {
+    
+    section {
+
+        div {
+
+            article {
+
+                .ver-mas-blog {
+                    color: black;
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 20px;
+                    text-decoration: none;
+                    border: 1.5px solid;
+                    padding: 3px 25px;
+
+                    &:hover {
+                        background-color: rgb(171, 39, 39);
+                        color: white;
+                        transition: 0.4s;
+                    }
+                }
+            }
+        }
+    }
+}

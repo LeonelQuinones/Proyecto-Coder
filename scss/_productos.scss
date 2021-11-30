@@ -1,0 +1,36 @@
+// Archivo Productos
+
+
+main {
+
+    section {
+
+        .navegacion-productos{
+            width: 120px;
+            display: flex;
+            justify-content: start;
+
+            .menu-productos{
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                height: 600px;
+                width: 120px;
+                background-color: rgb(9, 9, 9);
+                text-align: center;
+                justify-content: space-around;
+                padding-top: 20px;
+                
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color: rgb(255, 255, 255);
+                        font-size: 25px;
+                        font-family: 'Oswald', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}

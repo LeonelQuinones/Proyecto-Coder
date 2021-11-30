@@ -1,0 +1,91 @@
+// Archivo Contacto
+
+
+main {
+
+    .contacto {
+        padding: 70px 0 20px 0;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+
+        h1 {
+            font-size: 65px;
+            color: #1D9000;
+        }
+
+        p {
+            padding-top: 20px;
+            font-size: 30px;
+        }
+    }
+
+    section {
+
+        .contacto-container {
+            padding-bottom: 220px;
+            padding-top: 0;
+
+            div {
+
+                svg {
+                    color: #1D9000;
+
+                    &:hover {
+                        color: white;
+                        transition: 0.4s;
+                    }
+                }
+
+                .subtitulo-contacto {
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 24px;
+                }
+
+                .aclaracion-contacto {
+                    font-family: 'Oswald', sans-serif;
+                    font-size: 15;
+                }
+            }
+        }
+    }
+
+    section {
+
+        .formulario {
+            text-align: center;
+            background-color: #193036;
+            margin-bottom: 120px;
+            padding: 20px;
+            border-radius: 10px;
+
+            .titulo-form {
+                font-family: 'Oswald', sans-serif;
+                font-size: 50px;
+                margin-bottom: 50px;
+                margin-top: 20px;
+                color: white;
+            }
+
+            input, textarea {
+                width: 100%;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                border: 0;
+            }
+
+            .boton-form {
+                color: #193036;
+                background-color: white;
+                font-family: 'Oswald', sans-serif;
+                letter-spacing: 0.5px;
+                height: 50px;
+                width: 200px;
+
+                &:hover {
+                    background-color: #D7E399;
+                    transition: 0.15s;
+                }
+            }
+        }
+    }
+}
