@@ -49,14 +49,24 @@ main section .section-productos {
 main section .section-productos .barra {
   grid-row: 1/span 9;
 }
+main section .section-productos .barra h3 {
+  text-align: center;
+}
+main section .section-productos .barra ul {
+  padding: 0;
+  border: 1.7px solid black;
+}
 main section .section-productos .barra ul li {
   list-style: none;
-  padding: 15px 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 main section .section-productos .barra ul li a {
   display: flex;
   text-decoration: none;
   color: black;
+  font-family: "Oswald", sans-serif;
 }
 main section .section-productos .productos {
   width: 300px;
@@ -65,7 +75,7 @@ main section .section-productos .productos {
   border-radius: 8px;
   background-color: whitesmoke;
   margin-bottom: 20px;
-  box-shadow: 3px 3px 10px;
+  box-shadow: 3px 3px 15px 2px;
 }
 main section .section-productos .productos img {
   width: 300px;
