@@ -199,16 +199,25 @@ main .container-productos .section-productos .t-productos h2 {
   list-style: disc;
 }
 
-.titulo-blog {
+.main-blog {
+  background-image: url("../src/assets/img/fondos/fondo-definitivo.png");
+}
+.main-blog .titulo-blog {
   text-align: center;
   padding: 6em 0;
 }
-.titulo-blog h1 {
+.main-blog .titulo-blog h1 {
   font-family: "Oswald", sans-serif;
   font-size: 60px;
 }
-
-main section div article .ver-mas-blog {
+.main-blog section div {
+  padding-bottom: 40px;
+}
+.main-blog section div article {
+  background-color: white;
+  padding-bottom: 20px;
+}
+.main-blog section div article .ver-mas-blog {
   color: black;
   font-family: "Oswald", sans-serif;
   font-size: 20px;
@@ -216,65 +225,68 @@ main section div article .ver-mas-blog {
   border: 1.5px solid;
   padding: 3px 25px;
 }
-main section div article .ver-mas-blog:hover {
+.main-blog section div article .ver-mas-blog:hover {
   background-color: #ab2727;
   color: white;
   transition: 0.4s;
 }
 
-main .contacto {
+.main-contacto {
+  background-image: url("../src/assets/img/fondos/fondo-definitivo.png");
+}
+.main-contacto .contacto {
   padding: 70px 0 20px 0;
   text-align: center;
   font-family: "Oswald", sans-serif;
 }
-main .contacto h1 {
+.main-contacto .contacto h1 {
   font-size: 65px;
   color: #1D9000;
 }
-main .contacto p {
+.main-contacto .contacto p {
   padding-top: 20px;
   font-size: 30px;
 }
-main section .contacto-container {
+.main-contacto section .contacto-container {
   padding-bottom: 220px;
   padding-top: 0;
 }
-main section .contacto-container div svg {
+.main-contacto section .contacto-container div svg {
   color: #1D9000;
 }
-main section .contacto-container div svg:hover {
+.main-contacto section .contacto-container div svg:hover {
   color: white;
   transition: 0.4s;
 }
-main section .contacto-container div .subtitulo-contacto {
+.main-contacto section .contacto-container div .subtitulo-contacto {
   font-family: "Oswald", sans-serif;
   font-size: 24px;
 }
-main section .contacto-container div .aclaracion-contacto {
+.main-contacto section .contacto-container div .aclaracion-contacto {
   font-family: "Oswald", sans-serif;
   font-size: 15;
 }
-main section .formulario {
+.main-contacto section div div .formulario {
   text-align: center;
   background-color: #193036;
   margin-bottom: 120px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
-main section .formulario .titulo-form {
+.main-contacto section div div .formulario .titulo-form {
   font-family: "Oswald", sans-serif;
   font-size: 50px;
   margin-bottom: 50px;
   margin-top: 20px;
   color: white;
 }
-main section .formulario input, main section .formulario textarea {
+.main-contacto section div div .formulario input, .main-contacto section div div .formulario textarea {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 5px;
   border: 0;
 }
-main section .formulario .boton-form {
+.main-contacto section div div .formulario .boton-form {
   color: #193036;
   background-color: white;
   font-family: "Oswald", sans-serif;
@@ -282,7 +294,7 @@ main section .formulario .boton-form {
   height: 50px;
   width: 200px;
 }
-main section .formulario .boton-form:hover {
+.main-contacto section div div .formulario .boton-form:hover {
   background-color: #D7E399;
   transition: 0.15s;
 }
@@ -296,7 +308,7 @@ main section .formulario .boton-form:hover {
   background-image: url("../src/assets/img/fondos/fondo-definitivo.png");
 }
 .header section div div .nombre-puesto {
-  color: #ab2727;
+  color: #1D9000;
   font-family: "Oswald", sans-serif;
   font-size: 50px;
   margin-top: 5px;
@@ -305,7 +317,7 @@ main section .formulario .boton-form:hover {
   padding: 80px 20px;
 }
 .header .section-info .info {
-  color: #ab2727;
+  color: #1D9000;
   font-size: 45px;
   font-family: "Oswald", sans-serif;
   margin-left: 50px;
@@ -327,8 +339,8 @@ main section .formulario .boton-form:hover {
   padding: 2px 10px;
 }
 .header .section-info .boton:hover {
-  background-color: #ab2727;
-  border-color: #ab2727;
+  background-color: #1D9000;
+  border-color: #1D9000;
   color: white;
   transition: 0.2s;
 }

@@ -2,24 +2,29 @@
 
 
 
-.titulo-blog {
-    text-align: center;
-    padding: 6em 0;
+.main-blog {
+    background-image: url("../src/assets/img/fondos/fondo-definitivo.png");
 
-    h1 {
-        font-family: 'Oswald', sans-serif;
-        font-size: 60px;
+    .titulo-blog {
+        text-align: center;
+        padding: 6em 0;
+
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 60px;
+        }
     }
-}
 
-main {
-    
     section {
 
         div {
 
+            padding-bottom: 40px;
+            
             article {
-
+                background-color: white;
+                padding-bottom: 20px;
+                
                 .ver-mas-blog {
                     color: black;
                     font-family: 'Oswald', sans-serif;

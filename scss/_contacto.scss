@@ -1,7 +1,8 @@
 // Archivo Contacto
 
 
-main {
+.main-contacto {
+    background-image: url("../src/assets/img/fondos/fondo-definitivo.png");
 
     .contacto {
         padding: 70px 0 20px 0;
@@ -51,39 +52,45 @@ main {
 
     section {
 
-        .formulario {
-            text-align: center;
-            background-color: #193036;
-            margin-bottom: 120px;
-            padding: 20px;
-            border-radius: 10px;
+        div {
 
-            .titulo-form {
-                font-family: 'Oswald', sans-serif;
-                font-size: 50px;
-                margin-bottom: 50px;
-                margin-top: 20px;
-                color: white;
-            }
+            div {
 
-            input, textarea {
-                width: 100%;
-                margin-bottom: 15px;
-                border-radius: 5px;
-                border: 0;
-            }
+                .formulario {
+                    text-align: center;
+                    background-color: #193036;
+                    margin-bottom: 120px;
+                    padding: 20px;
+                    border-radius: 8px;
 
-            .boton-form {
-                color: #193036;
-                background-color: white;
-                font-family: 'Oswald', sans-serif;
-                letter-spacing: 0.5px;
-                height: 50px;
-                width: 200px;
+                    .titulo-form {
+                        font-family: 'Oswald', sans-serif;
+                        font-size: 50px;
+                        margin-bottom: 50px;
+                        margin-top: 20px;
+                        color: white;
+                    }
 
-                &:hover {
-                    background-color: #D7E399;
-                    transition: 0.15s;
+                    input, textarea {
+                        width: 100%;
+                        margin-bottom: 15px;
+                        border-radius: 5px;
+                        border: 0;
+                    }
+
+                    .boton-form {
+                        color: #193036;
+                        background-color: white;
+                        font-family: 'Oswald', sans-serif;
+                        letter-spacing: 0.5px;
+                        height: 50px;
+                        width: 200px;
+
+                        &:hover {
+                            background-color: #D7E399;
+                            transition: 0.15s;
+                        }
+                    }
                 }
             }
         }
