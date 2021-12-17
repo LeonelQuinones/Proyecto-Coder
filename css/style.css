@@ -11,7 +11,7 @@
   padding: 5rem 0;
 }
 .footer div div section .redes {
-  color: #D7E399;
+  color: #e4b851;
   font-size: 29px;
   font-family: "Oswald", sans-serif;
 }
@@ -22,7 +22,7 @@
   color: #F4F5F9;
 }
 .footer div div section .margen1 svg {
-  color: #D7E399;
+  color: #e4b851;
 }
 .footer div div section .margen2 {
   padding-top: 1rem;
@@ -31,7 +31,7 @@
   color: #F4F5F9;
 }
 .footer div div section .margen2 svg {
-  color: #D7E399;
+  color: #e4b851;
 }
 
 main section h1 {
@@ -112,21 +112,24 @@ main section .section-productos .t-productos h2 {
   padding-left: 20px;
 }
 
-main section .section-animacion {
+main .section-info {
+  padding: 80px 20px;
+}
+main .section-info .section-animacion {
   margin: 0;
   display: table;
 }
-main section .section-animacion .texto-animado {
+main .section-info .section-animacion .texto-animado {
   color: #fafafa;
   position: relative;
   margin-left: 345px;
   margin-bottom: 90px;
   font-size: 60px;
-  background-color: #1D9000;
+  background-color: #ab2727;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 0;
 }
-main section .section-animacion .texto-animado span {
+main .section-info .section-animacion .texto-animado span {
   position: absolute;
   right: 0;
   width: 0;
@@ -140,6 +143,19 @@ main section .section-animacion .texto-animado span {
   to {
     width: 0;
   }
+}
+main .section-info .info {
+  color: #ab2727;
+  font-size: 45px;
+  font-family: "Oswald", sans-serif;
+  margin-left: 50px;
+}
+main .section-info .parrafo-info {
+  text-align: justify;
+  color: black;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  margin: 40px 0 15px 20px;
 }
 main .grid-container-empresa {
   display: grid;
@@ -269,30 +285,32 @@ main section .formulario .boton-form:hover {
   padding: 0;
 }
 
-header section div div .nombre-puesto {
-  color: #1D9000;
+.header {
+  background-image: url("../src/assets/img/fondos/fondo.png");
+}
+.header section div div .nombre-puesto {
+  color: #ab2727;
   font-family: "Oswald", sans-serif;
   font-size: 50px;
   margin-top: 5px;
 }
-
-main .section-info {
+.header .section-info {
   padding: 80px 20px;
 }
-main .section-info .info {
-  color: #1D9000;
+.header .section-info .info {
+  color: #ab2727;
   font-size: 45px;
   font-family: "Oswald", sans-serif;
   margin-left: 50px;
 }
-main .section-info .parrafo-info {
+.header .section-info .parrafo-info {
   text-align: justify;
   color: black;
   font-size: 25px;
   font-family: "Oswald", sans-serif;
   margin: 40px 0 15px 20px;
 }
-main .section-info .boton {
+.header .section-info .boton {
   font-family: "Oswald", sans-serif;
   color: black;
   font-size: 20px;
@@ -301,19 +319,22 @@ main .section-info .boton {
   margin-left: 25px;
   padding: 2px 10px;
 }
-main .section-info .boton:hover {
-  background-color: #1D9000;
+.header .section-info .boton:hover {
+  background-color: #ab2727;
+  border-color: #ab2727;
   color: white;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 main .section-compras {
-  background-color: #e8ebfa;
+  background-image: url("../src/assets/img/fondos/fondo-compra-2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-bottom: 100px;
   padding-top: 100px;
 }
 main .section-compras #compra {
-  color: #193036;
+  color: white;
   font-size: 60px;
   letter-spacing: 5px;
   font-family: "Oswald", sans-serif;
@@ -340,18 +361,24 @@ main .section-compras .parrafo-promo .link-promo {
   padding: 3px 20px;
 }
 main .section-compras .parrafo-promo .link-promo:hover {
-  background-color: #1D9000;
-  border-color: #bbbaba;
+  background-color: #ab2727;
+  border-color: #ab2727;
   color: white;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
-main section div div .titulo-productos {
+main .section-prod-index {
+  background-image: url("../src/assets/img/fondos/fondo.png");
+}
+main .section-prod-index div div a {
+  text-decoration: none;
+}
+main .section-prod-index div div .titulo-productos {
   font-size: 35px;
   font-family: "Oswald", sans-serif;
-  color: #1D9000;
+  color: #ab2727;
 }
-main section div div .productos {
+main .section-prod-index div div .productos {
   color: #F4F5F9;
   font-family: "Oswald", sans-serif;
   font-size: 22px;
@@ -363,7 +390,7 @@ main section div div .productos {
   margin-right: 60px;
   padding: 10px 10px;
 }
-main section div div .img-producto {
+main .section-prod-index div div .img-producto {
   padding-top: 50px;
   width: 100%;
   padding-bottom: 5rem;

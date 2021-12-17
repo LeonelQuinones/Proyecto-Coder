@@ -3,7 +3,8 @@
 
 main {
 
-    section {
+    .section-info {
+        padding: 80px 20px;
 
         .section-animacion {
             margin: 0;
@@ -15,7 +16,7 @@ main {
                 margin-left: 345px;
                 margin-bottom: 90px;
                 font-size: 60px;
-                background-color: #1D9000;
+                background-color: #ab2727;
                 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 padding: 0;
 
@@ -38,6 +39,21 @@ main {
                     }
                 }
             }
+        }
+        
+        .info {
+            color: #ab2727;
+            font-size: 45px;
+            font-family: 'Oswald', sans-serif;
+            margin-left: 50px;
+        }
+    
+        .parrafo-info {
+            text-align: justify;
+            color: black;
+            font-size: 25px;
+            font-family: 'Oswald', sans-serif;
+            margin: 40px 0 15px 20px;
         }
     }
 
