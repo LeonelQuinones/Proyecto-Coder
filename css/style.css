@@ -9,30 +9,47 @@
 
 .footer {
   background-color: #193036;
-  padding: 5rem 0;
+  padding: 2rem 0;
+  box-shadow: 0px -3px 15px 2px;
 }
 .footer div div section .redes {
-  color: #e4b851;
-  font-size: 29px;
+  color: #d8ff9a;
+  font-size: 25px;
   font-family: "Oswald", sans-serif;
 }
 .footer div div section .margen1 {
-  padding-top: 2.5em;
-  font-size: 17px;
-  font-family: "Oswald", sans-serif;
+  padding-top: 1.5em;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
   color: #F4F5F9;
 }
 .footer div div section .margen1 svg {
-  color: #e4b851;
+  color: #d8ff9a;
+}
+.footer div div section .margen1 a {
+  text-decoration: none;
+  color: white;
 }
 .footer div div section .margen2 {
   padding-top: 1rem;
-  font-size: 17px;
-  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
   color: #F4F5F9;
 }
 .footer div div section .margen2 svg {
-  color: #e4b851;
+  color: #d8ff9a;
+}
+.footer div div section .margen2 a {
+  text-decoration: none;
+  color: white;
+}
+.footer div div div .copy {
+  padding-top: 100px;
+  text-align: start;
+  font-size: 20px;
+  color: white;
+  opacity: 0.4;
+  font-family: "Poppins", sans-serif;
 }
 
 main .container-productos {
@@ -169,7 +186,7 @@ main .container-productos .section-productos .t-productos h2 {
   text-align: justify;
   color: black;
   font-size: 25px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 40px 0 15px 20px;
 }
 @media screen and (max-width: 440px) {
@@ -193,20 +210,18 @@ main .container-productos .section-productos .t-productos h2 {
   text-align: center;
 }
 .main-empresa .section-empresa div .parrafo-info2 {
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 25px;
   color: black;
   padding-bottom: 30px;
-  text-align: justify;
 }
 .main-empresa .section-empresa div #vis-val:nth-child(2) {
   padding-left: 80px;
 }
 .main-empresa .section-empresa div #vis-val {
-  text-align: justify;
   color: black;
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   list-style: disc;
 }
 
@@ -232,6 +247,10 @@ main .container-productos .section-productos .t-productos h2 {
 .main-blog section div article {
   background-color: white;
   padding-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+}
+.main-blog section div article p {
+  font-family: "Poppins", sans-serif;
 }
 .main-blog section div article img {
   width: 500px;
@@ -313,8 +332,9 @@ html {
   font-size: 24px;
 }
 .main-contacto section .contacto-container .caja-contacto .aclaracion-contacto {
-  font-family: "Oswald", sans-serif;
-  font-size: 15;
+  font-family: "Poppins", sans-serif;
+  font-size: 18;
+  font-weight: 500;
 }
 @media screen and (max-width: 440px) {
   .main-contacto section .contacto-container .caja-contacto .aclaracion-contacto {
@@ -399,7 +419,7 @@ html {
   text-align: justify;
   color: black;
   font-size: 25px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 40px 0 15px 20px;
 }
 .header .section-info .boton {

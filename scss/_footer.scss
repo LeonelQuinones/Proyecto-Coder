@@ -3,7 +3,8 @@
 
 .footer {
     background-color: #193036;
-    padding: 5rem 0;
+    padding: 2rem 0;
+    box-shadow: 0px -3px 15px 2px;
 
     div {
 
@@ -12,31 +13,53 @@
             section {
 
                 .redes {
-                    color: #e4b851;
-                    font-size: 29px;
+                    color: #d8ff9a;
+                    font-size: 25px;
                     font-family: 'Oswald', sans-serif;
                 }
 
                 .margen1 {
-                    padding-top: 2.5em;
-                    font-size: 17px;
-                    font-family: 'Oswald', sans-serif;
+                    padding-top: 1.5em;
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
                     color: #F4F5F9;
 
                     svg {
-                        color: #e4b851;
+                        color: #d8ff9a;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: white;
                     }
                 }
 
                 .margen2 {
                     padding-top: 1rem;
-                    font-size: 17px;
-                    font-family: 'Oswald', sans-serif;
+                    font-size: 15px;
+                    font-family: 'Poppins', sans-serif;
                     color: #F4F5F9;
 
                     svg {
-                        color: #e4b851;
+                        color: #d8ff9a;
                     }
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+
+            div {
+
+                .copy {
+                    padding-top: 100px;
+                    text-align: start;
+                    font-size: 20px;
+                    color: white;
+                    opacity: 0.4;
+                    font-family: 'Poppins', sans-serif;
                 }
             }
         }
