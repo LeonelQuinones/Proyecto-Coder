@@ -4,7 +4,7 @@
 }
 .fondo-color div .loguito {
   width: 170px;
-  background-color: white;
+  opacity: 0.8;
 }
 
 .footer {
@@ -133,7 +133,8 @@ main .container-productos .section-productos .t-productos h2 {
   margin-left: 345px;
   margin-bottom: 90px;
   font-size: 60px;
-  background-color: #ab2727;
+  background-color: #1d8f00;
+  opacity: 0.8;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   padding: 0;
 }
@@ -153,7 +154,7 @@ main .container-productos .section-productos .t-productos h2 {
   }
 }
 .main-empresa .section-info .info {
-  color: #ab2727;
+  color: #1d8f00;
   font-size: 45px;
   font-family: "Oswald", sans-serif;
   margin-left: 50px;
@@ -170,13 +171,28 @@ main .container-productos .section-productos .t-productos h2 {
   grid-template-rows: 400px;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 70px;
+  grid-template-areas: "sec-mision sec-vision sec-valores";
   padding-left: 40px;
-  background-color: #e8ebfa;
+  background-color: rgba(25, 48, 54, 0.3);
   padding-bottom: 90px;
   padding-top: 40px;
 }
+.main-empresa .grid-container-empresa .sec-mision {
+  grid-area: sec-mision;
+}
+.main-empresa .grid-container-empresa .sec-vision {
+  grid-area: sec-vision;
+}
+.main-empresa .grid-container-empresa .sec-valores {
+  grid-area: sec-valores;
+}
+@media screen and (max-width: 440px) {
+  .main-empresa .grid-container-empresa .grid-container-empresa {
+    grid-template-areas: "sec-mision" "sec-vision" "sec-valores";
+  }
+}
 .main-empresa .grid-container-empresa div .subtitulos {
-  color: #1D9000;
+  color: black;
   font-size: 25px;
   font-family: "Oswald", sans-serif;
   padding-bottom: 40px;
@@ -186,6 +202,7 @@ main .container-productos .section-productos .t-productos h2 {
 .main-empresa .grid-container-empresa div .parrafo-info2 {
   font-family: "Oswald", sans-serif;
   font-size: 25px;
+  color: black;
   padding-bottom: 30px;
   text-align: justify;
 }
@@ -211,12 +228,25 @@ main .container-productos .section-productos .t-productos h2 {
   font-family: "Oswald", sans-serif;
   font-size: 60px;
 }
+@media screen and (max-width: 440px) {
+  .main-blog .titulo-blog h1 {
+    font-size: 55px;
+  }
+}
 .main-blog section div {
   padding-bottom: 40px;
 }
 .main-blog section div article {
   background-color: white;
   padding-bottom: 20px;
+}
+.main-blog section div article img {
+  width: 500px;
+}
+@media screen and (max-width: 440px) {
+  .main-blog section div article img {
+    width: 100%;
+  }
 }
 .main-blog section div article .ver-mas-blog {
   color: black;
@@ -227,9 +257,12 @@ main .container-productos .section-productos .t-productos h2 {
   padding: 3px 25px;
 }
 .main-blog section div article .ver-mas-blog:hover {
-  background-color: #ab2727;
+  background-color: #1d8f00;
+  opacity: 0.8;
+  border: 1.5px solid #1d8f00;
+  opacity: 0.8;
   color: white;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 html {
@@ -266,8 +299,8 @@ html {
   }
 }
 .main-contacto section .contacto-container {
-  padding-bottom: 220px;
-  padding-top: 0;
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 @media screen and (max-width: 440px) {
   .main-contacto section .contacto-container {
@@ -351,13 +384,12 @@ html {
   background-image: url("../src/assets/img/fondos/fondo-definitivo.png");
 }
 .header section div div .nombre-puesto {
-  color: #1d8f00;
-  opacity: 0.8;
+  color: rgba(29, 143, 0, 0.8);
   font-family: "Oswald", sans-serif;
   font-size: 50px;
   margin-top: 5px;
 }
-.header section div div img {
+.header section div div .logo {
   opacity: 0.8;
 }
 .header .section-info {
