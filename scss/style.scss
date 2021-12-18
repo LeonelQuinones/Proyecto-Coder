@@ -7,10 +7,15 @@
 
 // Reglas Universales
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
+
 
 // Header
 
@@ -24,10 +29,15 @@
             div {
                 
                 .nombre-puesto {
-                    color: #1D9000;
+                    color: #1d8f00;
+                    opacity: 0.8;
                     font-family: 'Oswald', sans-serif;
                     font-size: 50px;
                     margin-top: 5px;
+                }
+
+                img {
+                    opacity: 0.8;
                 }
             }
         }
@@ -37,7 +47,8 @@
         padding: 80px 20px;
     
         .info {
-            color: #1D9000;
+            color: #1d8f00;
+            opacity: 0.8;
             font-size: 45px;
             font-family: 'Oswald', sans-serif;
             margin-left: 50px;
@@ -61,8 +72,9 @@
             padding: 2px 10px;
     
             &:hover {
-                background-color: #1D9000;
-                border-color: #1D9000;
+                background-color:#1d8f00;
+                opacity: 0.8;
+                border-color: #1d8f00;
                 color: white;
                 transition: 0.2s;
             }
@@ -140,7 +152,8 @@ main {
                 .titulo-productos {
                     font-size: 35px;
                     font-family: 'Oswald', sans-serif;
-                    color: #ab2727;
+                    color: #1d8f00;
+                    opacity: 0.8;
                 }
 
                 .productos {
