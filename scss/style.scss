@@ -101,8 +101,7 @@ main {
         }
 
         .promo{
-            color: #193036;
-            font-weight: bold;
+            color: white;
             font-family: 'Oswald', sans-serif;
             text-align: center;
             font-size: 30px;
@@ -114,7 +113,7 @@ main {
             text-align: center;
 
             .link-promo{
-                color: black;
+                color: white;
                 font-family: 'Oswald', sans-serif;
                 text-decoration: none;
                 border: 1px solid;
@@ -122,9 +121,9 @@ main {
                 padding: 3px 20px;
 
                 &:hover {
-                    background-color: #ab2727;
-                    border-color: #ab2727;
-                    color: white;
+                    background-color: white;
+                    border-color: white;
+                    color: black;
                     transition: 0.2s;
                 }
             }

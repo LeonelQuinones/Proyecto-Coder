@@ -153,6 +153,12 @@ main .container-productos .section-productos .t-productos h2 {
     width: 0;
   }
 }
+@media screen and (max-width: 440px) {
+  .main-empresa .section-info .section-animacion .texto-animado {
+    margin-left: 0;
+    text-align: center;
+  }
+}
 .main-empresa .section-info .info {
   color: #1d8f00;
   font-size: 45px;
@@ -166,32 +172,19 @@ main .container-productos .section-productos .t-productos h2 {
   font-family: "Oswald", sans-serif;
   margin: 40px 0 15px 20px;
 }
-.main-empresa .grid-container-empresa {
-  display: grid;
-  grid-template-rows: 400px;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 70px;
-  grid-template-areas: "sec-mision sec-vision sec-valores";
-  padding-left: 40px;
+@media screen and (max-width: 440px) {
+  .main-empresa .section-info .parrafo-info {
+    margin-left: 0;
+  }
+}
+.main-empresa .section-empresa {
   background-color: rgba(25, 48, 54, 0.3);
   padding-bottom: 90px;
   padding-top: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
-.main-empresa .grid-container-empresa .sec-mision {
-  grid-area: sec-mision;
-}
-.main-empresa .grid-container-empresa .sec-vision {
-  grid-area: sec-vision;
-}
-.main-empresa .grid-container-empresa .sec-valores {
-  grid-area: sec-valores;
-}
-@media screen and (max-width: 440px) {
-  .main-empresa .grid-container-empresa .grid-container-empresa {
-    grid-template-areas: "sec-mision" "sec-vision" "sec-valores";
-  }
-}
-.main-empresa .grid-container-empresa div .subtitulos {
+.main-empresa .section-empresa div .subtitulos {
   color: black;
   font-size: 25px;
   font-family: "Oswald", sans-serif;
@@ -199,17 +192,17 @@ main .container-productos .section-productos .t-productos h2 {
   padding-top: 30px;
   text-align: center;
 }
-.main-empresa .grid-container-empresa div .parrafo-info2 {
+.main-empresa .section-empresa div .parrafo-info2 {
   font-family: "Oswald", sans-serif;
   font-size: 25px;
   color: black;
   padding-bottom: 30px;
   text-align: justify;
 }
-.main-empresa .grid-container-empresa div #vis-val:nth-child(2) {
+.main-empresa .section-empresa div #vis-val:nth-child(2) {
   padding-left: 80px;
 }
-.main-empresa .grid-container-empresa div #vis-val {
+.main-empresa .section-empresa div #vis-val {
   text-align: justify;
   color: black;
   font-size: 20px;
@@ -441,8 +434,7 @@ main .section-compras #compra {
   text-align: center;
 }
 main .section-compras .promo {
-  color: #193036;
-  font-weight: bold;
+  color: white;
   font-family: "Oswald", sans-serif;
   text-align: center;
   font-size: 30px;
@@ -453,7 +445,7 @@ main .section-compras .parrafo-promo {
   text-align: center;
 }
 main .section-compras .parrafo-promo .link-promo {
-  color: black;
+  color: white;
   font-family: "Oswald", sans-serif;
   text-decoration: none;
   border: 1px solid;
@@ -461,9 +453,9 @@ main .section-compras .parrafo-promo .link-promo {
   padding: 3px 20px;
 }
 main .section-compras .parrafo-promo .link-promo:hover {
-  background-color: #ab2727;
-  border-color: #ab2727;
-  color: white;
+  background-color: white;
+  border-color: white;
+  color: black;
   transition: 0.2s;
 }
 
