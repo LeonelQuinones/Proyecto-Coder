@@ -118,6 +118,9 @@ main .container-productos div .filtros ul li a {
   color: black;
   font-family: "Oswald", sans-serif;
 }
+main .container-productos div .filtros ul li a:hover {
+  color: #1d8f00;
+}
 @media screen and (max-width: 440px) {
   main .container-productos div .filtros ul {
     width: auto;
@@ -171,9 +174,16 @@ main .container-productos div .productos div a {
   text-decoration: none;
   border: 1px solid black;
   border-radius: 4px;
-  padding: 2px 5px;
+  padding: 3px 7px;
   color: black;
   font-family: "Oswald", sans-serif;
+}
+main .container-productos div .productos div a:hover {
+  background-color: #1d8f00;
+  opacity: 0.8;
+  border-color: #1d8f00;
+  color: white;
+  transition: 0.2s;
 }
 @media screen and (max-width: 440px) {
   main .container-productos div .productos {

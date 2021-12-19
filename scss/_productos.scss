@@ -66,6 +66,10 @@ main {
         
                             color: black;
                             font-family: 'Oswald', sans-serif;
+
+                            &:hover {
+                                color: rgb(29, 143, 0);
+                            }
                         }
                     }
                 }
@@ -133,9 +137,17 @@ main {
                         text-decoration: none;
                         border: 1px solid black;
                         border-radius: 4px;
-                        padding: 2px 5px;
+                        padding: 3px 7px;
                         color: black;
                         font-family: 'Oswald', sans-serif;
+
+                        &:hover {
+                            background-color:#1d8f00;
+                            opacity: 0.8;
+                            border-color: #1d8f00;
+                            color: white;
+                            transition: 0.2s;
+                        }
                     }
                 }
             }
