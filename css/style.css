@@ -484,6 +484,11 @@ html {
 .header section div div .logo {
   opacity: 0.8;
 }
+@media screen and (max-width: 440px) {
+  .header section div div .logo {
+    width: 380px;
+  }
+}
 .header .section-info {
   padding: 80px 20px;
 }

@@ -38,6 +38,13 @@ html {
                 .logo {
                     opacity: 0.8;
                 }
+
+                @media screen and (max-width: 440px) {
+                   
+                    .logo {
+                        width: 380px;
+                    }
+                }
             }
         }
     }
