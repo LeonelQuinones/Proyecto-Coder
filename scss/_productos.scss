@@ -4,7 +4,7 @@
 main {
 
     .container-productos {
-        background-image: url("../src/assets/img/fondos/fondo-definitivo-2.png");
+        background-image: url("../src/assets/img/fondos/fondo-definitivo-2.webp");
         padding-bottom: 150px;
         
         h1 {
@@ -40,6 +40,7 @@ main {
                 
                 .filtrar {
                     padding: 0;
+                    padding-bottom: 10px;
 
                     h3 {
                         width: auto;
@@ -51,7 +52,7 @@ main {
             .filtros {
 
                 ul {
-                    width: 710px;
+                    width: 600px;
                     border: 1.7px solid black;
                     background-color: white;
                     margin: 0;
@@ -80,10 +81,11 @@ main {
                 
                     ul {
                         width: auto;
-                        padding-left: 5px;
+                        padding-left: 7px;
 
                         li {
-                            padding: 15px 4px;
+                            padding: 15px 7px;
+                            font-size: 15px;
                         }
                     }
                 }
@@ -172,95 +174,5 @@ main {
                 margin: 0;
             }
         }
-    
-        // .section-productos {
-        //     display: grid;
-        //     grid-template-columns: 190px 310px 310px 310px;
-        //     grid-template-rows: 100px 370px 100px 370px 100px 370px 100px 370px;
-        //     justify-content: space-around;
-
-        //     padding-bottom: 100px;
-
-        //     .barra {
-        //         grid-row: 1 / span 9;
-
-        //         h3 {
-        //             text-align: center;
-        //         }
-
-        //         ul {
-        //             padding: 0;
-        //             border: 1.7px solid black;
-        //             background-color: white;
-
-        //             li {
-        //                 list-style: none;
-        //                 padding: 20px 0;
-        //                 display: flex;
-        //                 justify-content: center;
-
-        //                 a {
-        //                     display: flex;
-        //                     text-decoration: none;
-        
-        //                     color: black;
-        //                     font-family: 'Oswald', sans-serif;
-        //                 }
-        //             }
-        //         }
-        //     }
-
-        //     .productos {
-        //         width: 300px;
-        //         margin: 5px;
-        //         overflow: hidden;
-        //         border-radius: 8px;
-        //         background-color: rgb(245, 245, 245);
-        //         margin-bottom: 20px;
-        //         box-shadow: 3px 3px 15px 2px;
-
-        //         img {
-        //             width: 300px;
-        //             height: 210px;
-        //         }
-
-        //         div {
-        //             text-align: center;
-
-        //             h3, p{
-        //                 font-family: 'Oswald', sans-serif;
-        //                 font-size: 20px;
-        //                 text-align: center;
-        //                 padding-top: 10px;
-        //             }
-
-        //             a {
-        //                 width: 70px;
-        //                 text-decoration: none;
-        //                 border: 1px solid black;
-        //                 border-radius: 4px;
-        //                 padding: 2px 5px;
-        //                 color: black;
-        //                 font-family: 'Oswald', sans-serif;
-        //             }
-        //         }
-        //     }
-
-        //     .t-productos {
-
-        //         grid-column: 2 / span 3;
-
-        //         border-bottom: 3px solid black;
-        //         padding-top: 2px;
-        //         margin-top: 10px;
-        //         margin-bottom: 30px;
-
-        //         h2 {
-        //             font-family: 'Oswald', sans-serif;
-        //             font-size: 40px;
-        //             padding-left: 20px;
-        //         }
-        //     }
-        // }
     }
 }
