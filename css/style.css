@@ -17,6 +17,13 @@
   font-size: 25px;
   font-family: "Oswald", sans-serif;
 }
+@media screen and (max-width: 440px) {
+  .footer div div section .redes {
+    margin-bottom: 0;
+    padding-top: 45px;
+    padding-bottom: 20px;
+  }
+}
 .footer div div section .margen1 {
   padding-top: 1.5em;
   font-size: 15px;
@@ -42,6 +49,14 @@
 .footer div div section .margen2 a {
   text-decoration: none;
   color: white;
+}
+.footer div div section .direc-mercado {
+  width: 280px;
+}
+@media screen and (max-width: 440px) {
+  .footer div div section .margen1, .footer div div section .margen2 {
+    padding-top: 10px;
+  }
 }
 .footer div div div .copy {
   padding-top: 100px;
@@ -259,6 +274,11 @@ main .container-productos div .productos div a {
 .main-empresa .section-empresa div #vis-val:nth-child(2) {
   padding-left: 80px;
 }
+@media screen and (max-width: 440px) {
+  .main-empresa .section-empresa div #vis-val:nth-child(2) {
+    padding-left: 60px;
+  }
+}
 .main-empresa .section-empresa div #vis-val {
   color: black;
   font-size: 20px;
@@ -348,7 +368,7 @@ html {
 @media screen and (max-width: 440px) {
   .main-contacto .contacto p {
     font-size: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 }
 .main-contacto section .contacto-container {
@@ -358,6 +378,7 @@ html {
 @media screen and (max-width: 440px) {
   .main-contacto section .contacto-container {
     padding-bottom: 50px;
+    padding-top: 35px;
   }
 }
 .main-contacto section .contacto-container .caja-contacto svg {
@@ -390,6 +411,7 @@ html {
   .main-contacto section div div .mapa {
     width: 100%;
     height: 610px;
+    padding-bottom: 100px;
   }
 }
 .main-contacto section div div .formulario {
@@ -463,6 +485,11 @@ html {
   font-family: "Poppins", sans-serif;
   margin: 40px 0 15px 20px;
 }
+@media screen and (max-width: 440px) {
+  .header .section-info .parrafo-info {
+    margin-left: 0;
+  }
+}
 .header .section-info .boton {
   font-family: "Oswald", sans-serif;
   color: black;
@@ -531,6 +558,11 @@ main .section-prod-index div div .titulo-productos {
   font-family: "Oswald", sans-serif;
   color: #1d8f00;
   opacity: 0.8;
+}
+@media screen and (max-width: 440px) {
+  main .section-prod-index div div .titulo-productos {
+    text-align: center;
+  }
 }
 main .section-prod-index div div .productos {
   color: #F4F5F9;

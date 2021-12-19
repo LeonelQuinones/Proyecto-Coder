@@ -60,6 +60,13 @@ html {
             font-family: 'Poppins', sans-serif;
             margin: 40px 0 15px 20px;
         }
+
+        @media screen and (max-width: 440px) {
+
+            .parrafo-info {
+                margin-left: 0;
+            }
+        }
     
         .boton {
             font-family: 'Oswald', sans-serif;
@@ -152,6 +159,13 @@ main {
                     font-family: 'Oswald', sans-serif;
                     color: #1d8f00;
                     opacity: 0.8;
+                }
+
+                @media screen and (max-width: 440px) {
+
+                    .titulo-productos {
+                        text-align: center;
+                    }
                 }
 
                 .productos {

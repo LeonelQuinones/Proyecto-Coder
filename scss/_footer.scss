@@ -18,6 +18,15 @@
                     font-family: 'Oswald', sans-serif;
                 }
 
+                @media screen and (max-width: 440px) {
+
+                    .redes {
+                        margin-bottom: 0;
+                        padding-top: 45px;
+                        padding-bottom: 20px;
+                    }
+                }
+
                 .margen1 {
                     padding-top: 1.5em;
                     font-size: 15px;
@@ -47,6 +56,17 @@
                     a {
                         text-decoration: none;
                         color: white;
+                    }
+                }
+
+                .direc-mercado {
+                    width: 280px;
+                }
+
+                @media screen and (max-width: 440px) {
+
+                    .margen1, .margen2 {
+                        padding-top: 10px;
                     }
                 }
             }
