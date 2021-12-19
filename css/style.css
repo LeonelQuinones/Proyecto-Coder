@@ -75,6 +75,7 @@ main .container-productos h1 {
   text-align: center;
   font-size: 100px;
   padding: 50px 0;
+  letter-spacing: 4px;
 }
 @media screen and (max-width: 440px) {
   main .container-productos h1 {
@@ -88,8 +89,9 @@ main .container-productos div .filtrar {
   padding-right: 60px;
 }
 main .container-productos div .filtrar h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Oswald", sans-serif;
+  margin: 0;
 }
 @media screen and (max-width: 440px) {
   main .container-productos div .filtrar {
@@ -333,7 +335,7 @@ main .container-productos div .productos div a:hover {
 }
 .main-blog section div article .ver-mas-blog {
   color: black;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   text-decoration: none;
   border: 1.5px solid;
@@ -432,7 +434,7 @@ html {
   border-radius: 8px;
 }
 .main-contacto section div div .formulario .titulo-form {
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   margin-bottom: 50px;
   margin-top: 20px;
@@ -447,7 +449,8 @@ html {
 .main-contacto section div div .formulario .boton-form {
   color: #193036;
   background-color: white;
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   letter-spacing: 0.5px;
   height: 50px;
   width: 200px;
@@ -501,7 +504,7 @@ html {
   }
 }
 .header .section-info .boton {
-  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: black;
   font-size: 20px;
   text-decoration: none;
